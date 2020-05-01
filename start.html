@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>New Tab</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+	<link rel="stylesheet" href="assets/css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/styles.css" type="text/css">
+</head>
+
+<body>
+
+	<ul class="top-sites-list">
+		<li>
+			<a class="top-site-button" href="https://www.gmail.com/">
+				<div class="top-site-tile">
+					<img src="assets/images/gmail.png" alt="">
+				</div>
+				<div class="top-site-title">Gmail</div>
+			</a>
+		</li>
+		<li>
+			<a class="top-site-button" href="https://calendar.google.com/">
+				<div class="top-site-tile">
+					<img src="assets/images/google_calendar.png" alt="">
+				</div>
+				<div class="top-site-title">Calendar</div>
+			</a>
+		</li>
+		<li>
+			<a class="top-site-button" href="https://workflowy.com/">
+				<div class="top-site-tile">
+					<img src="assets/images/workflowy.png" alt="">
+				</div>
+				<div class="top-site-title">Workflowy</div>
+			</a>
+		</li>
+		<li>
+			<a class="top-site-button" href="https://keep.google.com/">
+				<div class="top-site-tile">
+					<img src="assets/images/keep.png" alt="">
+				</div>
+				<div class="top-site-title">Keep</div>
+			</a>
+		</li>
+		<li>
+			<a class="top-site-button" href="https://drive.google.com/">
+				<div class="top-site-tile">
+					<img src="assets/images/drive.png" alt="">
+				</div>
+				<div class="top-site-title">Drive</div>
+			</a>
+		</li>
+		<li>
+			<a class="top-site-button" href="https://www.youtube.com/">
+				<div class="top-site-tile">
+					<img src="assets/images/youtube.png" alt="">
+				</div>
+				<div class="top-site-title">YouTube</div>
+			</a>
+		</li>
+		<li>
+			<a class="top-site-button" href="https://www.linkedin.com/">
+				<div class="top-site-tile">
+					<img src="assets/images/linkedin.png" alt="">
+				</div>
+				<div class="top-site-title">LinkedIn</div>
+			</a>
+		</li>
+		<li>
+			<a class="top-site-button" href="https://www.reddit.com/">
+				<div class="top-site-tile">
+					<img src="assets/images/reddit.png" alt="">
+				</div>
+				<div class="top-site-title">Reddit</div>
+			</a>
+		</li>
+
+	</ul>
+
+	<div class="weather-widget">
+		<a class="weatherwidget-io" href="https://forecast7.com/en/35d78n78d64/raleigh/?unit=us" data-label_1="Raleigh, NC" data-font="Open Sans" data-days="3" data-theme="pure">Raleigh, NC</a>
+	</div>
+
+
+
+
+
+
+
+	<script>
+		! function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (!d.getElementById(id)) {
+				js = d.createElement(s);
+				js.id = id;
+				js.src = 'https://weatherwidget.io/js/widget.min.js';
+				fjs.parentNode.insertBefore(js, fjs);
+			}
+		}(document, 'script', 'weatherwidget-io-js');
+	</script>
+
+</body>
+
+</html>

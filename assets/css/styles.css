@@ -1,0 +1,74 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	padding: 0 1.5rem 1.5rem;
+	
+	font-family:
+		'Segoe UI',
+		'Ubuntu',
+		'Helvetica Neue',
+		sans-serif;
+
+	background: hsl(0, 0%, 97%);
+}
+
+.top-sites-list {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+
+	margin: 5rem auto 0;
+	padding: 0;
+	max-width: 1000px;
+	list-style: none;
+}
+
+.top-sites-list li {
+	margin: 1.5rem;
+}
+
+.top-site-button {
+	display: block;
+	text-decoration: none;
+
+	/* Diagnostic */
+	/* outline: 1px solid pink; */
+}
+
+.top-site-tile {
+	font-size: 0;
+	border-radius: 6px;
+}
+
+.top-site-tile img {
+	border: 1px solid hsl(0, 0%, 87%);
+	border-radius: 6px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+	transition: box-shadow .2s ease-out;
+}
+
+.top-site-button:hover > .top-site-tile img {
+	box-shadow: 0 0 0 4px hsl(0, 0%, 87%);
+}
+
+.top-site-title {
+	padding-top: 12px;
+	font-size: .8125rem;
+	text-align: center;
+	color: hsl(0, 0%, 20%);
+}
+
+.weather-widget {
+	margin: 5rem auto 0;
+	max-width: 900px;
+	border: 1px solid hsl(0, 0%, 87%);
+	box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+}
